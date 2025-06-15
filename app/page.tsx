@@ -94,11 +94,11 @@ export default function LandingPage() {
                 New: Food Recognition v2.0
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">
-                Track Calories with <span className="text-green-500">AI Precision</span>
+                The Smart <span className="text-green-500">AI Calorie Counter</span> App
               </h1>
               <p className="text-xl text-gray-400 md:w-[85%]">
-                CalCam AI instantly identifies food, calculates calories, and helps you reach your nutrition goals with
-                just a photo.
+                CalCam AI is the most advanced calorie counter app that uses AI to instantly identify food and count
+                calories with just a photo. Transform your nutrition tracking experience today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="bg-green-500 hover:bg-green-600 text-white px-8 py-6 rounded-xl text-lg">
@@ -112,14 +112,7 @@ export default function LandingPage() {
                   Learn More
                 </Button>
               </div>
-              <div className="flex items-center gap-4 text-sm text-gray-400">
-                <div className="flex">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 fill-green-500 text-green-500" />
-                  ))}
-                </div>
-                <span>4.8/5 on Google Play (2,000+ reviews)</span>
-              </div>
+              <div className="flex items-center gap-4 text-sm text-gray-400"></div>
             </div>
             <div className="flex-1 mt-10 lg:mt-0 relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl shadow-green-500/20 border border-white/10">
@@ -140,10 +133,11 @@ export default function LandingPage() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Smart Features for <span className="text-green-500">Smart Nutrition</span>
+              Why CalCam AI is the Best <span className="text-green-500">Calorie Counter</span>
             </h2>
             <p className="text-gray-400 md:w-2/3 mx-auto">
-              CalCam AI combines cutting-edge technology with intuitive design to make calorie tracking effortless.
+              Our AI-powered calorie counter combines cutting-edge technology with intuitive design to make calorie
+              counting effortless and accurate.
             </p>
           </div>
 
@@ -151,17 +145,17 @@ export default function LandingPage() {
             <FeatureCard
               icon={<Camera className="h-10 w-10 text-green-500" />}
               title="Instant Food Recognition"
-              description="Take a photo of your meal and our AI instantly identifies all food items with 99% accuracy."
+              description="Take a photo of your meal and our AI calorie counter instantly identifies all food items and counts calories with 99% accuracy."
             />
             <FeatureCard
               icon={<BarChart3 className="h-10 w-10 text-green-500" />}
               title="Detailed Nutrition Insights"
-              description="Get complete macro and micronutrient breakdowns for every meal you track."
+              description="Get complete macro and micronutrient breakdowns with the most detailed calorie counter insights available."
             />
             <FeatureCard
               icon={<Zap className="h-10 w-10 text-green-500" />}
               title="Personalized Recommendations"
-              description="Receive AI-powered suggestions to optimize your diet based on your goals."
+              description="Receive AI-powered suggestions from your personal calorie counter to optimize your diet based on your goals."
             />
           </div>
         </div>
@@ -172,10 +166,10 @@ export default function LandingPage() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              How <span className="text-green-500">CalCam AI</span> Works
+              How Our AI <span className="text-green-500">Calorie Counter</span> Works
             </h2>
             <p className="text-gray-400 md:w-2/3 mx-auto">
-              Three simple steps to transform your nutrition tracking experience
+              Three simple steps to experience the future of calorie counting with CalCam AI
             </p>
           </div>
 
@@ -188,12 +182,12 @@ export default function LandingPage() {
             <StepCard
               number="2"
               title="AI Analysis"
-              description="Our advanced AI identifies food items and calculates nutritional content."
+              description="Our advanced AI calorie counter identifies food items and calculates nutritional content instantly."
             />
             <StepCard
               number="3"
               title="Track Progress"
-              description="Review insights and track your nutrition journey over time."
+              description="Review calorie counter insights and track your nutrition journey over time with detailed analytics."
             />
           </div>
         </div>
@@ -204,7 +198,7 @@ export default function LandingPage() {
         <div className="container px-4 md:px-6 mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Loved by <span className="text-green-500">Thousands</span>
+              Why Users Love Our <span className="text-green-500">Calorie Counter</span>
             </h2>
             <p className="text-gray-400 md:w-2/3 mx-auto">
               See what our users are saying about their CalCam AI experience
@@ -213,19 +207,19 @@ export default function LandingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <TestimonialCard
-              quote="CalCam AI has completely changed how I track my nutrition. It's so easy to use and incredibly accurate!"
+              quote="CalCam AI is the best calorie counter I've ever used! It's so easy and incredibly accurate for counting calories."
               author="Sarah K."
               role="Fitness Enthusiast"
               rating={5}
             />
             <TestimonialCard
-              quote="As a nutritionist, I recommend CalCam AI to all my clients. The detailed breakdown of nutrients is exactly what they need."
+              quote="As a nutritionist, I recommend this calorie counter to all my clients. The detailed breakdown is exactly what they need for effective calorie counting."
               author="Dr. Michael Chen"
               role="Registered Dietitian"
               rating={5}
             />
             <TestimonialCard
-              quote="I've tried many calorie tracking apps, but CalCam AI is by far the most convenient. Just snap and track!"
+              quote="I've tried many calorie counter apps, but CalCam AI is by far the most convenient. Just snap and count calories instantly!"
               author="James Wilson"
               role="Weight Loss Journey"
               rating={4}
@@ -242,10 +236,10 @@ export default function LandingPage() {
             <div className="flex flex-col lg:flex-row items-center gap-8">
               <div className="flex-1 space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold">
-                  Ready to transform your <span className="text-green-500">nutrition journey?</span>
+                  Ready to revolutionize your <span className="text-green-500">calorie counting?</span>
                 </h2>
                 <p className="text-gray-400">
-                  Join thousands of satisfied users who have made CalCam AI an essential part of their healthy
+                  Join thousands of satisfied users who have made CalCam AI their go-to calorie counter for a healthier
                   lifestyle.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -284,7 +278,9 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <h3 className="text-xl font-bold">CalCam AI</h3>
-              <p className="text-gray-400">The smartest way to track your nutrition with AI-powered precision.</p>
+              <p className="text-gray-400">
+                The smartest AI-powered calorie counter app for precise nutrition tracking and calorie counting.
+              </p>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Product</h4>
