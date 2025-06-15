@@ -37,7 +37,17 @@ export default function LandingPage() {
               <a href="#pricing" className="text-gray-300 hover:text-green-500 transition-colors">
                 Pricing
               </a>
-              <Button className="bg-green-500 hover:bg-green-600 text-white">Download App</Button>
+              <Button
+                className="bg-green-500 hover:bg-green-600 text-white"
+                onClick={() =>
+                  window.open(
+                    "https://play.google.com/store/apps/details?id=com.Five_Point_AI_Labs.CalTrackAI",
+                    "_blank",
+                  )
+                }
+              >
+                Download App
+              </Button>
             </div>
 
             {/* Mobile menu button */}
@@ -78,7 +88,17 @@ export default function LandingPage() {
                 >
                   Pricing
                 </a>
-                <Button className="bg-green-500 hover:bg-green-600 text-white w-full mt-4">Download App</Button>
+                <Button
+                  className="bg-green-500 hover:bg-green-600 text-white w-full mt-4"
+                  onClick={() =>
+                    window.open(
+                      "https://play.google.com/store/apps/details?id=com.Five_Point_AI_Labs.CalTrackAI",
+                      "_blank",
+                    )
+                  }
+                >
+                  Download App
+                </Button>
               </div>
             </div>
           )}
@@ -101,15 +121,17 @@ export default function LandingPage() {
                 calories with just a photo. Transform your nutrition tracking experience today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="bg-green-500 hover:bg-green-600 text-white px-8 py-6 rounded-xl text-lg">
+                <Button
+                  className="bg-green-500 hover:bg-green-600 text-white px-8 py-6 rounded-xl text-lg"
+                  onClick={() =>
+                    window.open(
+                      "https://play.google.com/store/apps/details?id=com.Five_Point_AI_Labs.CalTrackAI",
+                      "_blank",
+                    )
+                  }
+                >
                   Download for Android
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-                <Button
-                  variant="outline"
-                  className="border-green-500 text-green-500 hover:bg-green-500/10 px-8 py-6 rounded-xl text-lg"
-                >
-                  Learn More
                 </Button>
               </div>
               <div className="flex items-center gap-4 text-sm text-gray-400"></div>
@@ -243,7 +265,15 @@ export default function LandingPage() {
                   lifestyle.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button className="bg-green-500 hover:bg-green-600 text-white px-8 py-6 rounded-xl text-lg">
+                  <Button
+                    className="bg-green-500 hover:bg-green-600 text-white px-8 py-6 rounded-xl text-lg"
+                    onClick={() =>
+                      window.open(
+                        "https://play.google.com/store/apps/details?id=com.Five_Point_AI_Labs.CalTrackAI",
+                        "_blank",
+                      )
+                    }
+                  >
                     Download CalCam AI
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
