@@ -129,9 +129,9 @@ export default function LandingPage() {
             <div className="flex-1 mt-10 lg:mt-0 relative">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl shadow-green-500/20 border border-white/10">
                 <img
-                  src="/placeholder.svg?height=600&width=300"
+                  src="/placeholder.svg?height=400&width=200"
                   alt="CalCam AI App Screenshot"
-                  className="w-full max-w-[300px] mx-auto"
+                  className="w-full max-w-[1000px] mx-auto"
                 />
               </div>
               <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-green-500/20 rounded-full blur-[100px]" />
