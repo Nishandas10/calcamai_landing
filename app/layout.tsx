@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     "CalCam AI is the most advanced calorie counter app that uses AI to instantly count calories from photos. Download the best calorie counter for Android and transform your nutrition tracking experience.",
   keywords:
     "calorie counter, calorie counting app, AI calorie counter, food tracking app, nutrition tracker, calorie counter app, count calories, calorie tracking, food recognition app, diet app",
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: "CalCam AI - The Smart Calorie Counter App",
     description:
