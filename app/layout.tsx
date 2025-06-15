@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description:
       "Revolutionary AI-powered calorie counter that identifies food and counts calories instantly from photos. The most accurate calorie counter app available.",
     type: "website",
-    url: "https://calcam-ai.com",
+    url: "https://calcamai.com",
   },
   twitter: {
     card: "summary_large_image",
